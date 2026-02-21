@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "micro-task-manager"
+version = "0.1.0"
+description = "A simple micro task manager pilot project"
+authors = [{ name = "Glauber", email = "glauber@example.com" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "pydantic-settings",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "ruff",
+    "mypy",
+    "pylint",
+    "httpx",
+]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "B", "I"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[tool.pylint.messages_control]
+disable = ["C0114", "C0115", "C0116"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
