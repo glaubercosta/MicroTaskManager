@@ -20,9 +20,9 @@ When adopting this playbook in a project, define one mode explicitly:
   - merges are blocked for any non-compliance.
 
 Project binding block (fill in target project):
-- Project: [name]
-- Mode: [Forward-Only + Frozen Baseline | Full Immediate Enforcement]
-- Effective date: [YYYY-MM-DD]
+- Project: [MicroTaskManager]
+- Mode: [Full Immediate Enforcement]
+- Effective date: [2026-02-21]
 - Legacy handling rule: [explicit rule]
 
 ## Working Mode (Always-On)

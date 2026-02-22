@@ -11,7 +11,7 @@
 
 ## 3. Knowns vs Unknowns
 - Knowns (validated):
-- Unknowns (must clarify):
+- [ ] Unknowns (must clarify):
 
 ## 4. Critical Questions (Before Coding)
 For non-trivial work, list at least 10 questions.
@@ -27,7 +27,7 @@ For non-trivial work, list at least 10 questions.
 - [ ] Question 10
 
 ## 5. Assumptions Register
-- Assumption:
+- [ ] Assumption:
   - Owner:
   - Validation method:
   - Validation checkpoint:
